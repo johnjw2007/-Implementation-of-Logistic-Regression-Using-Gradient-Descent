@@ -8,10 +8,13 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Start the program.
+2. Data preprocessing:
+3. Cleanse data,handle missing values,encode categorical variables.
+4. Model Training:Fit logistic regression model on preprocessed data.
+5. Model Evaluation:Assess model performance using metrics like accuracyprecisioon,recall.
+6. Prediction: Predict placement status for new student data using trained model.
+7. End the program
 
 ## Program:
 ```
@@ -20,6 +23,7 @@ Program to implement the the Logistic Regression Using Gradient Descent.
 Developed by: John Wilfred Thomas J W
 RegisterNumber:  24013517
 */
+```
 ```
 import pandas as pd
  import numpy as np
@@ -68,11 +72,14 @@ import pandas as pd
  xnew=np.array([[0,87,0,95,0,2,78,2,0,0,1,0]])
  y_prednew=predict(theta,xnew)
  print("Predicted Result:",y_prednew)
+```
 
 ## Output:
-![logistic regression using gradient descent](sam.png)
-![Screenshot 2024-11-17 145935](https://github.com/user-attachments/assets/a670862a-a630-43b1-8530-3f2fc3717a92)
-
+![image](https://github.com/user-attachments/assets/19f027d4-ba84-4f73-9d34-431bf37a1226)
+![image](https://github.com/user-attachments/assets/903bdb5f-6904-4767-8c3d-fa213eda8cde)
+![image](https://github.com/user-attachments/assets/a5a081fd-5b11-4076-8d95-a18297049342)
+![image](https://github.com/user-attachments/assets/b3025074-8321-4c0f-a160-87b1010b1a06)
+![image](https://github.com/user-attachments/assets/4c442f98-5cf0-4fda-a3b5-bc81adbe63d3)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
